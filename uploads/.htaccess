@@ -1,0 +1,7 @@
+# VULN-08 Demo — uploads directory is intentionally web-accessible
+# In a secure app: deny PHP execution here, or better, store outside webroot.
+#
+# The line below is COMMENTED OUT intentionally to allow PHP execution:
+# php_flag engine off
+#
+# To fix VULN-08, uncomment the line above.
